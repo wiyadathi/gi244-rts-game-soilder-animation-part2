@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5720852050923334568}
   - component: {fileID: 4509269917425615125}
   m_Layer: 0
-  m_Name: Bratish
+  m_Name: Pirates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
