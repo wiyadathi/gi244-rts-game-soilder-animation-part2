@@ -44,6 +44,7 @@ public class UnitSelect : MonoBehaviour
         // mouse up
         if (Input.GetMouseButtonUp(0))
         {
+            
             TrySelect(Input.mousePosition);
         }
 

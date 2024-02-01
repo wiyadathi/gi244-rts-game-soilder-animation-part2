@@ -386,9 +386,9 @@ GameObject:
   - component: {fileID: 523385885}
   - component: {fileID: 523385884}
   - component: {fileID: 523385883}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundPlane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -887,6 +887,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7262926910545076720, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 938763924}
+    - targetCorrespondingSourceObject: {fileID: 7262926910545076720, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 938763925}
   m_SourcePrefab: {fileID: 100100000, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
 --- !u!4 &938763922 stripped
 Transform:
@@ -909,6 +912,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   curUnit: {fileID: 0}
+--- !u!114 &938763925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491706198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3eae791026dc74d93b42cc63678db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &958750998
 GameObject:
   m_ObjectHideFlags: 0
